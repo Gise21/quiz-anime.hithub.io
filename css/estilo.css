@@ -139,7 +139,7 @@ video {
 @media screen and (max-width: 800px) {
     #titulo, #subtitulo {
         font-size: xx-large;
-        max-width: 550px;
+        max-width: 800px;
         overflow-x: hidden;
     }
 }

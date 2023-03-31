@@ -15,4 +15,12 @@ let baseDePreguntasExtremo = [
             "Era invisible", "Asesinaba a los demás estudiantes", "Veía las almas de los demás"
         ]
     },
+    {
+        pregunta:"¿De qué país son los Dónghuà (tipo de animación)?",
+        imagen:"https://i.ibb.co/pvYtFSg/R.jpg",
+        respuesta:"Coreana",
+        distractores:[
+            "China", "Japonesa", "Americana"
+        ]
+    },
 ]

@@ -73,12 +73,25 @@ let body=document.body;
 modo.addEventListener("click", function(){
     let val=body.classList.toggle("dark")
     localStorage.setItem("modo",val)
+    let valor=localStorage.getItem("modo")
+    if(valor=="true"){
+        body.classList.add("bkmediodk");
+        body.classList.remove("bkmedio");
+    }else{
+        body.classList.remove("bkmediodk");
+        body.classList.add("bkmedio");
+    }
 })
 
 let valor=localStorage.getItem("modo")
 
 if (valor=="true") {
-    body.classList.add("dark")
+    body.classList.add("dark");
+    body.classList.add("bkmediodk");
+    body.classList.remove("bkmedio")
+    
 } else {
-    body.classList.remove("dark")
+    body.classList.remove("dark");
+    body.classList.remove("blmediodk");
+    body.classList.add("bkmedio");
 }

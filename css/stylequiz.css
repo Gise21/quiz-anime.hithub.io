@@ -13,26 +13,50 @@ body {
     font-size: 120%;
 }
 
-#facil {
-    background-image: url(https://i.ibb.co/9V4t9vq/tumblr-mkbvcqiiv-I1rh4yilo1-500.gif);
+.bkfacil {
+    background-image: url(https://i.ibb.co/MMXHRPk/sakura-4.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bkfacildk{
+    background-image: url(https://i.ibb.co/nBQXcgf/beb2c2837db72e15907eef50ee46797b.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+.bkmedio {
+    background-image: url(https://i.ibb.co/mXTPBPT/96820ef61c0bf46714f5a70481179091.gif);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#medio {
+.bkmediodk {
     background-image: url(https://i.ibb.co/6tLz940/40ab8469396d0e76483b56812aad6c84.gif);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#dificil {
-    background-image: url(https://i.ibb.co/nBQXcgf/beb2c2837db72e15907eef50ee46797b.gif);
+.bkdificil {
+    background-image: url(https://i.ibb.co/5KrB0LG/5422b33b7a80d2f4ead5b17194851571.gif);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-#extremo {
+.bkdificildk {
     background-image: url(https://i.ibb.co/r5qkYxq/3390f172043272123dc434206d6ced9c.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bkextremo {
+    background-image: url(https://i.ibb.co/wzZ7pFH/d613594ec01daac4a190e2c4e2374d24.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bkextremodk {
+    background-image: url(https://i.ibb.co/9V4t9vq/tumblr-mkbvcqiiv-I1rh4yilo1-500.gif);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -90,4 +114,17 @@ body {
 
 .link-ventana:hover {
     text-decoration: underline;
+}
+
+#moon{
+    width: 30px;
+    font-size: 60px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    top: 0;
+}
+
+#moon img {
+    width: 40px;
 }
